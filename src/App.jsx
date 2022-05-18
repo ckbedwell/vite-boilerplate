@@ -1,3 +1,5 @@
+import { Main } from '~/Components/Main'
+
 import styles from './App.module.css'
 
 export function App() {
@@ -6,6 +8,7 @@ export function App() {
       <div className={styles.nested}>
         Check that nesting works
       </div>
+      <Main />
     </div>
   )
 }
