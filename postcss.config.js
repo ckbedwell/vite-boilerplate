@@ -1,4 +1,4 @@
-const mediaSizes = require('./mediaSizes.json')
+const mediaSizes = require(`./mediaSizes.json`)
 
 module.exports = {
   plugins: {
@@ -7,10 +7,11 @@ module.exports = {
       autoprefixer: {
         grid: true,
       },
-      browsers: 'last 2 versions',
+      browsers: `last 2 versions`,
       features: {
         'custom-media-queries': {},
         'custom-properties': {
+          disableDeprecationNotice: true,
           preserve: true,
         },
       },
