@@ -1,6 +1,8 @@
+import React from 'react'
 import { Main } from '~/Components/Main'
 
-import styles from './App.module.css'
+// import styles from './App.module.css'
+const styles = {}
 
 export function App() {
   return (
