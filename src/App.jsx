@@ -4,7 +4,7 @@ import { Container } from '~/Components/Container'
 
 import styles from './App.module.css'
 
-export function App() {
+export const App = () => {
   return (
     <Container>
       <div className={styles.App}>
