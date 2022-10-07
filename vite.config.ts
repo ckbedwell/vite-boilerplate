@@ -12,5 +12,9 @@ export default defineConfig({
   server: {
     open: true,
   },
+  // @ts-ignore -- really?
+  test: {
+    environment: 'jsdom',
+  },
   plugins: [react()],
 })
