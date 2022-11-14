@@ -16,7 +16,8 @@ module.exports = {
     ],
   },
   moduleNameMapper: {
-    "^~/(.*)$": `<rootDir>/src/$1`,
+    "^.+\\.svg$": `<rootDir>/mockSvg.ts`,
     "\\.module\\.(css)$": `identity-obj-proxy`,
+    "^~/(.*)$": `<rootDir>/src/$1`,
   },
 }

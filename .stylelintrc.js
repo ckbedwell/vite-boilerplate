@@ -25,7 +25,6 @@ module.exports = {
       {
         ignoreShorthands: [
           `font`,
-          `border-bottom`,
         ],
       },
     ],
@@ -52,7 +51,6 @@ module.exports = {
     "string-no-newline": true,
     "unit-no-unknown": true,
     indentation: 2,
-    "color-no-hex": true,
     "declaration-no-important": true,
     "font-weight-notation": `numeric`,
     "length-zero-no-unit": true,
@@ -62,9 +60,6 @@ module.exports = {
     "selector-max-id": 0,
     "selector-max-compound-selectors": 3,
     "selector-max-universal": 1,
-    "unit-disallowed-list": [
-      `em`,
-    ],
     "property-disallowed-list": [
       `float`,
       `font`,

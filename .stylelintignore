@@ -1,5 +1,8 @@
+*.html
+*.svg
+*/**.svg
 **/*.js
 **/*.jsx
+**/*.md
 **/*.ts
 **/*.tsx
-*.html
